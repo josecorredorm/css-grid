@@ -3,5 +3,28 @@
     margin: 0;
 }
 .container{
-    width: max-content;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "navbar navbar navbar navbar"
+    "sidebar main main main"
+    "sidebar main main main"
+    "footer footer footer footer"  ;
+}
+.container__navbar{
+background-color: blue;
+grid-area: navbar;
+}
+.container__sidebar{
+background-color: aqua;
+grid-area: sidebar;
+}
+.container__main{
+background-color: brown;
+grid-area: main;
+}
+.container__footer{
+    background-color: rgb(165, 157, 42);
+    grid-area: footer;    
 }

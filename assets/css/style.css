@@ -3,8 +3,9 @@
     margin: 0;
 }
 .container{
+    font-family: 'Roboto', sans-serif;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     display: grid;
     grid-template-areas: 
     "navbar navbar"
@@ -52,7 +53,7 @@ padding: 10px;
 }
 .container__main__box{
     background-color: white;
-    width: 85%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,7 +61,6 @@ padding: 10px;
 }
 .main__box__img{
     width: auto;
-    max-width: auto;
     height: 180px;
     max-height: 200px;
 }
@@ -69,9 +69,11 @@ padding: 10px;
     padding: 10px;
 }
 .main__box_price{
+    font-weight: 200;
     padding: 5px;
 }
 .main__box__button{
+    color: white;
     width: 50%;
     padding: 5px;
     background-color: #556891;

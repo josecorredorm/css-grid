@@ -1,0 +1,1 @@
+<!-- Este proyecto fue creado desde la resolución de mi pantalla de portatil que es 1366x768, no posee un diseño responsive por lo que se debe proyectar desde está resolución para ver el diseño de la maqueta -->
